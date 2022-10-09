@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="720.0" style="-fx-background-color: #8EB4F2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.MenuCompradorController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="720.0" style="-fx-background-color: #8EB4F2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.MenuCompradorController">
    <children>
-      <Label layoutX="96.0" text="Menu Comprador" textFill="#030303">
+      <Label layoutX="99.0" layoutY="14.0" text="Menu Comprador" textFill="#030303">
          <effect>
             <Glow level="0.71" />
          </effect>
@@ -25,7 +25,7 @@
                   <Image url="@../../../../interfaces/Foto%20de%20perfil.png" />
                </image>
             </ImageView>
-            <Label layoutX="75.0" layoutY="7.0" text="Datos del Comprador" textFill="WHITE">
+            <Label layoutX="75.0" layoutY="14.0" text="Datos del Comprador" textFill="WHITE">
                <effect>
                   <Glow level="0.71" />
                </effect>
@@ -59,7 +59,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button fx:id="btnPujasActivas" layoutX="137.0" layoutY="211.0" mnemonicParsing="false" onAction="#pujasActivas" text="Ver Pujas Activas" />
-      <Button fx:id="btnVerAnuncios" layoutX="147.0" layoutY="148.0" mnemonicParsing="false" onAction="#verArticulos" text="Ver Anuncios" />
+      <Button fx:id="btnPujasActivas" layoutX="137.0" layoutY="209.0" mnemonicParsing="false" onAction="#pujasActivas" text="Ver Pujas Activas" />
+      <Button fx:id="btnVerAnuncios" layoutX="137.0" layoutY="120.0" mnemonicParsing="false" onAction="#verArticulos" prefHeight="27.0" prefWidth="112.0" text="Ver Anuncios" />
    </children>
 </AnchorPane>

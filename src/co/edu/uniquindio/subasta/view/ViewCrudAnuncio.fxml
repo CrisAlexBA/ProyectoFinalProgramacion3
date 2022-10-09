@@ -14,7 +14,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="612.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="612.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <DatePicker fx:id="fechaInicial" layoutX="43.0" layoutY="237.0" prefHeight="26.0" prefWidth="204.0" />
         <AppBar layoutX="-3.0" prefHeight="54.0" prefWidth="619.0" titleText="Crear Anuncio" />
@@ -40,9 +40,9 @@
         <TextField fx:id="nombreArticulo" layoutX="40.0" layoutY="87.0" onKeyTyped="#ValidarText" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: White; -fx-border-color: Black;" />
         <TextArea fx:id="descripsion" layoutX="374.0" layoutY="302.0" prefHeight="115.0" prefWidth="218.0" />
         <TextField fx:id="precioArticulo" layoutX="40.0" layoutY="391.0" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: White;" />
-        <ComboBox fx:id="tipoProducto" layoutX="40.0" layoutY="155.0" prefHeight="28.0" prefWidth="204.0" promptText="Tipo Producto" />
-        <Label layoutX="42.0" layoutY="63.0" style="-fx-text-fill: White;" text="Nombre Articulo:" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" />
-        <Label layoutX="380.0" layoutY="281.0" style="-fx-text-fill: White;" text="Descripsión" />
+        <ComboBox fx:id="tipoProducto" layoutX="40.0" layoutY="155.0" prefHeight="28.0" prefWidth="204.0" promptText="Artículo" />
+        <Label layoutX="42.0" layoutY="63.0" style="-fx-text-fill: White;" text="Nombre Usuario:" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" />
+        <Label layoutX="380.0" layoutY="281.0" style="-fx-text-fill: White;" text="Descripción" />
         <Label layoutX="380.0" layoutY="63.0" style="-fx-text-fill: White;" text="Adjuntar Fotografía" />
         <Label layoutX="36.0" layoutY="360.0" style="-fx-text-fill: White;" text="Precio del Articulo:" />
         <Label layoutX="36.0" layoutY="227.0" style="-fx-text-fill: White;" />
