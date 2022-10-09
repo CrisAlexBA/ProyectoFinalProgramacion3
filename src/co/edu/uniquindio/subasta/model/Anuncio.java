@@ -1,4 +1,4 @@
-package co.edu.uniquindio.subasta.controller.model;
+package co.edu.uniquindio.subasta.model;
 
 public class Anuncio {
 

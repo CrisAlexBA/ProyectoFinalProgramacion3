@@ -40,10 +40,10 @@ public class Usuario {
 	public void setIdUsuario(String idUsuario) {
 		this.idUsuario = idUsuario;
 	}
-	public ArrayList<Articulos> getListaArticulos() {
+	public ArrayList<Articulo> getListaArticulos() {
 		return listaArticulos;
 	}
-	public void setListaArticulos(ArrayList<Articulos> listaArticulos) {
+	public void setListaArticulos(ArrayList<Articulo> listaArticulos) {
 		this.listaArticulos = listaArticulos;
 	}
 	public int getEdad() {
