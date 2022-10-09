@@ -1,4 +1,4 @@
-package co.edu.uniquindio.subasta.controller.model;
+package co.edu.uniquindio.subasta.model;
 
 import java.util.ArrayList;
 
@@ -9,12 +9,12 @@ public class Usuario {
 	private String idUsuario;
 	private int edad;
 	private float dinero;
-	private ArrayList<Articulos> listaArticulos = new ArrayList<Articulos>();
+	private ArrayList<Articulo> listaArticulos = new ArrayList<Articulo>();
 	// ------------------------------------
 	
 	
 	// Metodo constructor
-	public Usuario(String nombre, String idUsuario, int edad, float dinero, ArrayList<Articulos> listaArticulos) {
+	public Usuario(String nombre, String idUsuario, int edad, float dinero, ArrayList<Articulo> listaArticulos) {
 		super();
 		this.listaArticulos = listaArticulos;
 		this.nombre = nombre;
