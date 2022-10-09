@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="271.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.PrincipalController">
+   <children>
+      <Button fx:id="btnRegistroAnunciante" layoutX="398.0" layoutY="95.0" mnemonicParsing="false" onAction="#registroAnunciante" prefHeight="25.0" prefWidth="249.0" text="Registrar como anunciante" />
+      <Separator layoutY="23.0" prefHeight="13.0" prefWidth="672.0" />
+      <Separator layoutX="331.0" orientation="VERTICAL" prefHeight="240.0" prefWidth="11.0" />
+      <Label layoutX="136.0" layoutY="6.0" text="Login">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="6.0" text="Registrar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Separator layoutX="6.0" layoutY="239.0" prefHeight="13.0" prefWidth="672.0" />
+      <Button fx:id="btnRegistroComprador" layoutX="398.0" layoutY="148.0" mnemonicParsing="false" onAction="#registroComprador" prefHeight="25.0" prefWidth="249.0" text="Registrar como comprador" />
+      <Button fx:id="btnLoginAnunciante" layoutX="52.0" layoutY="95.0" mnemonicParsing="false" onAction="#loginAnunciante" prefHeight="25.0" prefWidth="249.0" text="Logear como anunciante" />
+      <Button fx:id="btnLoginComprador" layoutX="52.0" layoutY="148.0" mnemonicParsing="false" onAction="#loginComprador" prefHeight="25.0" prefWidth="249.0" text="Logear como comprador" />
+   </children>
+</AnchorPane>
