@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="720.0" style="-fx-background-color: #8EB4F2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.MenuAnuncianteController">
+   <children>
+      <Label layoutX="99.0" text="Menu Anunciante" textFill="#030303">
+         <effect>
+            <Glow level="0.71" />
+         </effect>
+         <font>
+            <Font name="Times New Roman Italic" size="26.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="363.0" layoutY="-5.0" prefHeight="354.0" prefWidth="357.0" style="-fx-background-color: #23529F;">
+         <children>
+            <ImageView fitHeight="126.0" fitWidth="118.0" layoutX="120.0" layoutY="204.0">
+               <image>
+                  <Image url="@../../../../interfaces/Foto%20de%20perfil.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="75.0" layoutY="7.0" text="Datos del Anunciante" textFill="WHITE">
+               <effect>
+                  <Glow level="0.71" />
+               </effect>
+               <font>
+                  <Font name="Times New Roman Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="61.0" text="Nombre:" textFill="WHITE">
+               <effect>
+                  <Glow level="0.71" />
+               </effect>
+               <font>
+                  <Font name="Candara Light Italic" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="99.0" text="Identificación:" textFill="WHITE">
+               <effect>
+                  <Glow level="0.71" />
+               </effect>
+               <font>
+                  <Font name="Candara Light Italic" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="138.0" text="Cantidad de dinero:" textFill="WHITE">
+               <effect>
+                  <Glow level="0.71" />
+               </effect>
+               <font>
+                  <Font name="Candara Light Italic" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnCrearAnuncio" layoutX="67.0" layoutY="55.0" mnemonicParsing="false" onAction="#crearAnuncio" prefHeight="29.0" prefWidth="150.0" text="Crear Anuncio" />
+      <Button fx:id="btnCrearProducto" layoutX="67.0" layoutY="100.0" mnemonicParsing="false" onAction="#crearProducto" prefHeight="29.0" prefWidth="150.0" text="Crear Producto" />
+      <Button fx:id="btnVerLista" layoutX="67.0" layoutY="158.0" mnemonicParsing="false" onAction="#verLista" prefHeight="29.0" prefWidth="150.0" text="Ver Lista de Anuncios" />
+   </children>
+</AnchorPane>

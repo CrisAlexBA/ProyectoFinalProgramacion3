@@ -1,0 +1,39 @@
+package co.edu.uniquindio.subasta.controller;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+
+public class CrudCompradorRegistroController implements Initializable{
+
+    @FXML
+    private TextField txtID;
+
+    @FXML
+    private TextField txtNombre;
+
+    @FXML
+    private TextField txtEdad;
+
+    @FXML
+    private Button btnRegistro;
+
+
+    @FXML
+    void registrar(ActionEvent event) {
+
+    }
+
+
+    @Override
+	public void initialize(URL url, ResourceBundle rb) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
