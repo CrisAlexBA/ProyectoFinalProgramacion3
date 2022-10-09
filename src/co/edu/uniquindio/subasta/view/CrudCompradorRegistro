@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="773.0" style="-fx-background-color: #8EB4F2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.RegistroCompradorController">
+   <children>
+      <AnchorPane layoutX="444.0" prefHeight="414.0" prefWidth="330.0" style="-fx-background-color: #23529F;">
+         <children>
+            <ImageView fitHeight="105.0" fitWidth="109.0" layoutX="11.0" layoutY="28.0">
+               <image>
+                  <Image url="@../../../../interfaces/borde%20arriba%20derecho.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="105.0" fitWidth="329.0" layoutX="1.0" layoutY="179.0">
+               <image>
+                  <Image url="@../../../../interfaces/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="108.0" text="Bienvenido  a  Subastas" textFill="#030303">
+               <font>
+                  <Font name="Times New Roman Italic" size="26.0" />
+               </font>
+               <effect>
+                  <Glow level="0.46" />
+               </effect>
+            </Label>
+            <ImageView fitHeight="98.0" fitWidth="109.0" layoutX="215.0" layoutY="302.0">
+               <image>
+                  <Image url="@../../../../interfaces/abajo%20a%20la%20izquierda.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="122.0" layoutY="137.0" text="Quindío" textFill="#030303">
+               <font>
+                  <Font name="Times New Roman Italic" size="26.0" />
+               </font>
+               <effect>
+                  <Glow level="0.46" />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="29.0" layoutY="79.0" text="Nombre" />
+      <TextField fx:id="txtNombre" layoutX="29.0" layoutY="105.0" prefHeight="25.0" prefWidth="359.0" />
+      <TextField fx:id="txtID" layoutX="29.0" layoutY="174.0" prefHeight="25.0" prefWidth="359.0" />
+      <Label layoutX="29.0" layoutY="148.0" text="ID" />
+      <Label layoutX="29.0" layoutY="216.0" text="Edad" />
+      <TextField fx:id="txtEdad" layoutX="29.0" layoutY="242.0" prefHeight="25.0" prefWidth="359.0" />
+      <Button fx:id="btnRegistro" layoutX="63.0" layoutY="335.0" mnemonicParsing="false" onAction="#registrar" prefHeight="25.0" prefWidth="278.0" text="Registrar" />
+      <Label layoutX="101.0" layoutY="21.0" text="Registro Comprador" textFill="#030303">
+         <effect>
+            <Glow level="0.71" />
+         </effect>
+         <font>
+            <Font name="Times New Roman Italic" size="26.0" />
+         </font>
+      </Label>
+      
+   </children>
+</AnchorPane>
