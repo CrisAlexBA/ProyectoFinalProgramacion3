@@ -1,0 +1,43 @@
+package controller;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+
+public class MenuAnuncianteController implements Initializable{
+
+    @FXML
+    private Button btnVerLista;
+
+    @FXML
+    private Button btnCrearAnuncio;
+
+    @FXML
+    private Button btnCrearProducto;
+
+    @FXML
+    void crearAnuncio(ActionEvent event) {
+
+    }
+
+    @FXML
+    void crearProducto(ActionEvent event) {
+
+    }
+
+    @FXML
+    void verLista(ActionEvent event) {
+
+    }
+    
+    @Override
+   	public void initialize(URL url, ResourceBundle rb) {
+   		// TODO Auto-generated method stub
+   		
+   	}
+
+}
