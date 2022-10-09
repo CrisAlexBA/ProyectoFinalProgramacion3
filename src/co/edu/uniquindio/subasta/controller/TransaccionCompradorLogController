@@ -1,0 +1,33 @@
+package controller;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+
+public class TransaccionCompradorLogController implements Initializable{
+
+    @FXML
+    private TextField txtID;
+
+    @FXML
+    private TextField txtNombre;
+
+    @FXML
+    private Button btnLogin;
+
+    @FXML
+    void logearComprador(ActionEvent event) {
+
+    }
+
+    @Override
+	public void initialize(URL url, ResourceBundle rb) {
+		// TODO Auto-generated method stub
+		
+	}
+}
