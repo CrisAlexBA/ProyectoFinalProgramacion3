@@ -26,7 +26,7 @@
         <TextField fx:id="idArticulo" layoutX="40.0" layoutY="172.0" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: White;" />
         <ComboBox fx:id="tipoProducto" layoutX="368.0" layoutY="86.0" prefHeight="28.0" prefWidth="204.0" promptText="Tipo Producto" />
         <Label layoutX="42.0" layoutY="63.0" style="-fx-text-fill: White;" text="Nombre Articulo:" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" />
-        <Label layoutX="36.0" layoutY="142.0" style="-fx-text-fill: White;" text="Id del Articulo:" />
+        <Label layoutX="36.0" layoutY="142.0" style="-fx-text-fill: White;" text="ID del Articulo:" />
         <Label layoutX="36.0" layoutY="227.0" style="-fx-text-fill: White;" />
         <Label layoutX="35.0" layoutY="302.0" style="-fx-text-fill: White;" />
       <Button fx:id="creaqrArticulo" layoutX="368.0" layoutY="173.0" mnemonicParsing="false" onAction="#CrearArticulo" prefHeight="32.0" prefWidth="204.0" text="Crear Articulo" />

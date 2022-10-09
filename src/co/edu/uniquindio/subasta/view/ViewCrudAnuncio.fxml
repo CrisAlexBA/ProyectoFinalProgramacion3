@@ -50,6 +50,6 @@
         <DatePicker fx:id="fechaFinal" layoutX="43.0" layoutY="317.0" prefHeight="26.0" prefWidth="204.0" />
         <Label layoutX="35.0" layoutY="302.0" style="-fx-text-fill: White;" />
         <Label layoutX="38.0" layoutY="290.0" style="-fx-text-fill: White;" text="Fecha de Culminación:" />
-      <Button fx:id="crearAnuncio" layoutX="433.0" layoutY="11.0" mnemonicParsing="false" onAction="#CrearAnuncio" style="-fx-background-color: blue;" text="Crear Anuncio" />
+      <Button fx:id="crearAnuncio" layoutX="415.0" layoutY="11.0" mnemonicParsing="false" onAction="#CrearAnuncio" style="-fx-background-color: blue;" text="Crear Anuncio" />
     </children>
 </Pane>
