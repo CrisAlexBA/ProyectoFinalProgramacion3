@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="755.0" style="-fx-background-color: #8EB4F2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.LoginCompradorController">
+   <children>
+      <AnchorPane layoutX="444.0" prefHeight="341.0" prefWidth="330.0" style="-fx-background-color: #23529F;">
+         <children>
+            <ImageView fitHeight="105.0" fitWidth="344.0" layoutX="1.0" layoutY="165.0">
+               <image>
+                  <Image url="@../../../../interfaces/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="94.0" text="Bienvenido  a  Subastas" textFill="#030303">
+               <font>
+                  <Font name="Times New Roman Italic" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="122.0" layoutY="123.0" text="Quindío" textFill="#030303">
+               <font>
+                  <Font name="Times New Roman Italic" size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="60.0" fitWidth="344.0" layoutX="-1.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../../interfaces/borde%20boca%20arriba.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="344.0" layoutY="270.0">
+               <image>
+                  <Image url="@../../../../interfaces/borde%20boca%20abajo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="64.0" text="Nombre" />
+      <TextField fx:id="txtNombre" layoutX="14.0" layoutY="90.0" prefHeight="25.0" prefWidth="359.0" />
+      <TextField fx:id="txtID" layoutX="14.0" layoutY="159.0" prefHeight="25.0" prefWidth="359.0" />
+      <Label layoutX="14.0" layoutY="133.0" text="ID" />
+      <Button fx:id="btnLogin" layoutX="58.0" layoutY="236.0" mnemonicParsing="false" onAction="#logearComprador" prefHeight="25.0" prefWidth="278.0" text="Logear" />
+      <Label layoutX="136.0" layoutY="14.0" text="Login Comprador" textFill="#030303">
+         <effect>
+            <Glow level="0.71" />
+         </effect>
+         <font>
+            <Font name="Times New Roman Italic" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
