@@ -1,4 +1,4 @@
-package controller;
+package co.edu.uniquindio.subasta.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
