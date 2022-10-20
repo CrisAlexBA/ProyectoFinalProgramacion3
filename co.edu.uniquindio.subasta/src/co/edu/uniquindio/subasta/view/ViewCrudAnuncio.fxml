@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.AppBar?>
+<?import com.gluonhq.charm.glisten.control.BottomNavigation?>
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="612.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <DatePicker fx:id="fechaInicial" layoutX="43.0" layoutY="237.0" prefHeight="26.0" prefWidth="204.0" />
+        <AppBar layoutX="-3.0" prefHeight="54.0" prefWidth="619.0" style="-fx-background-color: #759eff; -fx-text-fill: #f4f4f4;" titleText="Crear Anuncio" />
+        <BottomNavigation layoutX="-3.0" layoutY="446.0" prefHeight="66.0" prefWidth="619.0" style="-fx-background-color: #759eff;">
+            <actionItems>
+                <BottomNavigationButton fx:id="atras" onAction="#retrocederMenuPrincipal" selected="true" text="Atrás">
+                    <graphic>
+                        <Icon content="RECENT_ACTORS" />
+                    </graphic>
+                </BottomNavigationButton>
+                <BottomNavigationButton fx:id="listaArticulos" onAction="#mostrarLista" text="Lista Articulos">
+                    <graphic>
+                        <Icon content="FAVORITE" />
+                    </graphic>
+                </BottomNavigationButton>
+            </actionItems>
+        </BottomNavigation>
+        <SplitPane layoutX="380.0" layoutY="87.0" prefHeight="180.0" prefWidth="204.0">
+            <items>
+                <ImageView fx:id="campoImagen" fitHeight="174.0" fitWidth="204.0" pickOnBounds="true" preserveRatio="true" />
+            </items>
+        </SplitPane>
+        <TextField fx:id="nombreArticulo" layoutX="40.0" layoutY="87.0" onKeyTyped="#ValidarText" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: White;" />
+        <TextArea fx:id="descripsion" layoutX="374.0" layoutY="302.0" prefHeight="115.0" prefWidth="218.0" />
+        <TextField fx:id="precioArticulo" layoutX="40.0" layoutY="391.0" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: White;" />
+        <ComboBox fx:id="tipoProducto" layoutX="40.0" layoutY="155.0" prefHeight="28.0" prefWidth="204.0" promptText="Artículo" />
+        <Label layoutX="42.0" layoutY="63.0" text="Nombre Usuario:" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" />
+        <Label layoutX="380.0" layoutY="281.0" text="Descripción" />
+        <Label layoutX="380.0" layoutY="63.0" text="Adjuntar Fotografía" />
+        <Label layoutX="36.0" layoutY="360.0" text="Precio del Articulo:" />
+        <Label layoutX="36.0" layoutY="227.0" style="-fx-text-fill: White;" />
+        <Label layoutX="38.0" layoutY="210.0" text="Fecha de iniciación:" />
+        <DatePicker fx:id="fechaFinal" layoutX="43.0" layoutY="317.0" prefHeight="26.0" prefWidth="204.0" />
+        <Label layoutX="35.0" layoutY="302.0" style="-fx-text-fill: White;" />
+        <Label layoutX="38.0" layoutY="290.0" text="Fecha de Culminación:" />
+      <Button fx:id="crearAnuncio" layoutX="483.0" layoutY="11.0" mnemonicParsing="false" onAction="#CrearAnuncio" style="-fx-background-color: #2196f3;" text="Crear Anuncio">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Roboto Bold" size="13.0" />
+         </font></Button>
+    </children>
+</Pane>

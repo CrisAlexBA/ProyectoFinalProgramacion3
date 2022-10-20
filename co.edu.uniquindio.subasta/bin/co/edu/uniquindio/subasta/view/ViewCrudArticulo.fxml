@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.AppBar?>
+<?import com.gluonhq.charm.glisten.control.BottomNavigation?>
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="628.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.CrudArticuloController">
+    <children>
+        <AppBar layoutX="-3.0" prefHeight="54.0" prefWidth="636.0" style="-fx-background-color: #759eff;" titleText="Crear Artículo" />
+        <BottomNavigation layoutY="236.0" prefHeight="66.0" prefWidth="628.0" style="-fx-background-color: #759eff;">
+            <actionItems>
+                <BottomNavigationButton fx:id="atras" onAction="#retrocederMenuPrincipal" selected="true" text="Atrás">
+                    <graphic>
+                        <Icon content="RECENT_ACTORS" />
+                    </graphic>
+                </BottomNavigationButton>
+            </actionItems>
+        </BottomNavigation>
+        <TextField fx:id="nombreArticulo" layoutX="40.0" layoutY="87.0" onKeyTyped="#ValidarText" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: White;" />
+        <TextField fx:id="idArticulo" layoutX="40.0" layoutY="172.0" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: White;" />
+        <ComboBox fx:id="tipoProducto" layoutX="365.0" layoutY="128.0" prefHeight="28.0" prefWidth="204.0" promptText="Tipo Producto" />
+        <Label layoutX="42.0" layoutY="63.0" text="Nombre Articulo:" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" />
+        <Label layoutX="42.0" layoutY="142.0" text="ID del Articulo:" />
+        <Label layoutX="36.0" layoutY="227.0" style="-fx-text-fill: White;" />
+        <Label layoutX="35.0" layoutY="302.0" style="-fx-text-fill: White;" />
+      <Button fx:id="creaqrArticulo" layoutX="423.0" layoutY="11.0" mnemonicParsing="false" onAction="#CrearArticulo" prefHeight="32.0" prefWidth="168.0" style="-fx-background-color: #2196f3;" text="Crear Artículo">
+         <font>
+            <Font name="Roboto Bold" size="13.0" />
+         </font></Button>
+    </children>
+</Pane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.subasta.controller.CrudCompradorRegistroController">
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="402.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txtNombre" alignment="CENTER" layoutX="53.0" layoutY="197.0" prefHeight="27.0" prefWidth="307.0" promptText="Ingrese Nombre" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #75c7ff;" />
+            <TextField fx:id="txtIdUsuario" alignment="CENTER" layoutX="53.0" layoutY="245.0" prefHeight="27.0" prefWidth="307.0" promptText="Ingrese la Identificación" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #75c7ff;" />
+            <FontAwesomeIconView fill="#759eff" glyphName="KEY" layoutX="25.0" layoutY="265.0" size="20" />
+            <FontAwesomeIconView fill="#759eff" glyphName="USER" layoutX="28.0" layoutY="217.0" size="20" />
+            <Button fx:id="btnRegistro" layoutX="159.0" layoutY="359.0" mnemonicParsing="false" onAction="#registro" prefHeight="37.0" prefWidth="83.0" style="-fx-background-color: #759eff;" text="Registrar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="53.0" layoutY="104.0" text="Registro del Comprador" textFill="#759eff">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fill="#759eff" glyphName="USERS" layoutX="161.0" layoutY="89.0" size="80" />
+            <TextField fx:id="txtEdad" alignment="CENTER" layoutX="53.0" layoutY="295.0" prefHeight="27.0" prefWidth="307.0" promptText="Ingrese la Edad" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #75c7ff;" />
+            <FontAwesomeIconView fill="#759eff" glyphName="UNIVERSAL_ACCESS" layoutX="22.0" layoutY="317.0" size="20" />
+            <Button fx:id="btnVolver" layoutX="11.0" layoutY="414.0" mnemonicParsing="false" onAction="#volver" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: #759eff;" text="Volver" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
